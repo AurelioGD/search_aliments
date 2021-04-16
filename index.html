@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de alimentos</title>
+    <link rel="stylesheet" href="./bootstrap5/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="text-light">Buscador de alimentos</h1>
+    </header>
+    <main class="d-flex justify-content-center flex-column">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <label for="search">Escribe tu alimento:</label>
+                <input type="text" id="alimento">
+                <button id="submit">Buscar</button>
+            </div>
+        </div>
+        <div class="text-center m-3">
+            <img src="" class="img-thumbnail" alt="alimento" id="img_alimento">
+          </div>
+        <div class="container">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Name of the aliments</th>
+                    <th scope="col">Carbohidratos(g)</th>
+                    <th scope="col">Energia(kcal)</th>
+                    <th scope="col">Grasa(g)</th>
+                    <th scope="col">Fibra(g)</th>
+                    <th scope="col">Proteina(g)</th>
+                  </tr>
+                </thead>
+                <tbody id="info">
+                  <!-- <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                  </tr> -->
+                </tbody>
+              </table>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
+
